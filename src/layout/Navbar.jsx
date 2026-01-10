@@ -16,7 +16,7 @@ export const Navbar = () => {
       {/*Desktop nav*/}
 
       <div className="flex items-center gap-1">
-        <div className="glass">
+        <div className="">
           {navLinks.map((link,index)=>(
             <a href={link.href} key={index}>{link.label}</a>
           ))}
